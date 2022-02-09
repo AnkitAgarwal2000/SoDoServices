@@ -665,6 +665,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     /* margin-bottom: -1rem; */
 }
 
+.-mt-p2 {
+    margin-top: -0.2rem;
+    /* margin-bottom: -1rem; */
+}
+
+
 .my-\[6px\] {
     margin-top: 6px;
     margin-bottom: 6px;
@@ -1107,7 +1113,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .border {
-    border-width: 1px;
+    border-width: 3px;
 }
 
 .border-0 {
@@ -1224,6 +1230,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-color: rgb(255 242 230 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#fee1cd\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 225 205 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#afb2b5\] {
     --tw-bg-opacity: 1;
     background-color: rgb(175 178 181 / var(--tw-bg-opacity));
@@ -1288,6 +1299,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(48 86 211 / 0));
 }
 
+.from-lprimary {
+    --tw-gradient-from: #FC8B40;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(254 165 0 / 0));
+}
+
+
+
 .to-transparent {
     --tw-gradient-to: transparent;
 }
@@ -1298,6 +1316,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-\[\#fff2e6\] {
     --tw-gradient-to: #fcd2ac;
+}
+
+.to-\[\#f77700\] {
+    --tw-gradient-to: #f77700;
 }
 
 
@@ -1625,7 +1647,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-body-color {
     --tw-text-opacity: 1;
-    color: rgb(99 115 129 / var(--tw-text-opacity));
+    /* color: rgb(99 115 129 / var(--tw-text-opacity)); */
+    color: rgb(150 150 150 / var(--tw-text-opacity));
 }
 
 .text-white {
