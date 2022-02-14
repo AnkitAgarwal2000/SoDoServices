@@ -39,7 +39,7 @@
     const navbarCollapse = document.querySelector("#navbarCollapse");
 
     navbarToggler.addEventListener("click", () => {
-        navbarToggler.classList.toggle("navbarTogglerActive");
+        // navbarToggler.classList.toggle("navbarTogglerActive");
         navbarCollapse.classList.toggle("hidden");
     });
 
@@ -48,7 +48,7 @@
         .querySelectorAll("#navbarCollapse ul li:not(.submenu-item) a")
         .forEach((e) =>
             e.addEventListener("click", () => {
-                navbarToggler.classList.remove("navbarTogglerActive");
+                // navbarToggler.classList.remove("navbarTogglerActive");
                 navbarCollapse.classList.add("hidden");
             })
         );

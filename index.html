@@ -5220,17 +5220,21 @@ body {
                 fadeInUp
               " data-wow-delay=".2s
               ">
+
+              <div class="alert">We got your message</div>
                         <h3 class="font-semibold mb-8 text-2xl md:text-[26px]">
                             Connect With Us
                         </h3>
-                        <form>
-                            <div class="mb-6">
+                        <form id="contactForm">
+                <div class="mb-6">
                                 <label for="fullName" class="block text-xs text-dark">Your Name</label
                   >
                   <input
                     type="text"
-                    name="fullName"
+                    name="name"
                     placeholder=""
+                    id="name"
+                    required
                     class="
                       w-full
                       border-0 border-b border-[#f1f1f1]
@@ -5247,6 +5251,8 @@ body {
                     type="email"
                     name="email"
                     placeholder=""
+                    id="email"
+                    required
                     class="
                       w-full
                       border-0 border-b border-[#f1f1f1]
@@ -5263,6 +5269,8 @@ body {
                     type="text"
                     name="phone"
                     placeholder=""
+                    id="phone"
+                    required
                     class="
                       w-full
                       border-0 border-b border-[#f1f1f1]
@@ -5279,6 +5287,8 @@ body {
                     name="message"
                     rows="1"
                     placeholder=""
+                    id="message"
+                    required
                     class="
                       w-full
                       border-0 border-b border-[#f1f1f1]
@@ -5854,6 +5864,11 @@ body {
     <!-- ====== Back To Top End -->
 
     <!-- ====== All Scripts -->
+
+    <!-- script for firebase connection -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- firebase connection scripts end here -->
+    <script src="assets/js/main2.js"></script>
 
     <script src="assets/js/main.js"></script>
     <script>

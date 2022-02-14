@@ -1893,21 +1893,21 @@ body {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.navbarTogglerActive>span:nth-child(1) {
+/* .navbarTogglerActive>span:nth-child(1) {
     top: 7px;
     --tw-rotate: 45deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
+} */
 
-.navbarTogglerActive>span:nth-child(2) {
+/* .navbarTogglerActive>span:nth-child(2) {
     opacity: 0;
-}
+} */
 
-.navbarTogglerActive>span:nth-child(3) {
+/* .navbarTogglerActive>span:nth-child(3) {
     top: -8px;
     --tw-rotate: 135deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
+} */
 
 .after\:absolute::after {
     content: var(--tw-content);
@@ -2099,6 +2099,17 @@ body {
 
 .group:hover .group-hover\:opacity-100 {
     opacity: 1;
+}
+
+.alert{
+    width: 100%;
+    background-color: rgb(0, 255, 106);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    display: none;
 }
 
 @media (min-width: 540px) {
