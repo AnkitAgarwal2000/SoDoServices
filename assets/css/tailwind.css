@@ -794,6 +794,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 1.5rem;
 }
 
+.mr-5 {
+    margin-right: 1.15rem;
+}
+
+.mr-15 {
+    margin-right: 3.4rem;
+}
 .mb-0 {
     margin-bottom: 0px;
 }
@@ -1893,21 +1900,21 @@ body {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-/* .navbarTogglerActive>span:nth-child(1) {
+.navbarTogglerActive>span:nth-child(1) {
     top: 7px;
     --tw-rotate: 45deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-} */
+}
 
-/* .navbarTogglerActive>span:nth-child(2) {
+.navbarTogglerActive>span:nth-child(2) {
     opacity: 0;
-} */
+}
 
-/* .navbarTogglerActive>span:nth-child(3) {
+.navbarTogglerActive>span:nth-child(3) {
     top: -8px;
     --tw-rotate: 135deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-} */
+}
 
 .after\:absolute::after {
     content: var(--tw-content);
